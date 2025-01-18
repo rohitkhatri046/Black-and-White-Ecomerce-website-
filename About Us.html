@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://Fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header"> 
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="logo1.png" width="145px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems"> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="About Us.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="cart.png" width="25px" height="25px"></a>
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                
+                <div class="col-2-about">
+                    <img src="istockphoto-1345105817-170667a.jpg">
+        
+                </div>
+                <div class="col-2">
+                    <center><h1 style="font-size: 70px;">About Us</h1>
+                    <h1 style="font-size: 25px;">Welcome To Black And White:</h1></center>
+                    <center><p>We are your ultimate destination for timeless black-and-white fashion. <br> Our curated collection celebrates the beauty of simplicity and elegance, offering clothing that exudes sophistication for every occasion. From bold monochrome statement pieces to everyday essentials, we design with modern minimalists in mind. At Black And White, we believe that black and white isn’t just a color palette—it’s a lifestyle. Every piece is crafted with quality, style, and versatility at its core. Join us in redefining fashion, one classic hue at a time.</p>
+                    <a href="" class="btn">Read More &#8594;</a></center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Free-Black-And-White-logo.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benef of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Reture Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 Project - BS-CS - cs241149 </p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight ="200px";
+            }
+            else{
+                MenuItems.style.maxHeight ="0px";
+            }
+            
+
+        }
+    </script>
+    
+</body>
+</html>
